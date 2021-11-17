@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 330px;
+    height: 120px;
+}
+
+@media screen and (max-width:480px) {
+    .image {
+        width: 130px;
+        height: 90px;
+    }
+}

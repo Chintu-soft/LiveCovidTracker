@@ -1,0 +1,40 @@
+.container {
+    margin: 50px 0;
+}
+
+section {
+    display: flex;
+}
+
+.Card {
+    margin: 0 2% !important;
+}
+
+.infected {
+    background-color: #ff851B !important;
+}
+
+.recovered {
+    background-color: #39cccc !important;
+}
+
+.deaths {
+    background-color: #ff4136 !important;
+}
+
+@media screen and (max-width:480px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+    .Card {
+        margin-bottom: 10px;
+        height: 180px;
+        width: 300px;
+    }
+    .MuiGrid-item {
+        margin: 0;
+        box-sizing: border-box;
+        margin-bottom: 20 px !important;
+    }
+}
